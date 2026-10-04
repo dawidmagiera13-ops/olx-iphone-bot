@@ -65,7 +65,7 @@ def main():
                 wyslij_powiadomienie(wiadomosc)
                 licznik += 1
                 
-        print(تو "Wysłano powiadomienia o ofertach.")
+        print( "Wysłano powiadomienia o ofertach.")
 
     except Exception as e:
         print(f"Błąd podczas pobierania OLX: {e}")
